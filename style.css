@@ -17,7 +17,7 @@ header {
 	min-height: 700px;
 	background-image: url('images/header-bg.jpg');
 }
-nav ul {
+.header nav ul {
 	padding: 10px;
 	list-style: none;
 	float: right;
@@ -26,10 +26,10 @@ nav ul {
 	text-align: center;	
 	font-size: 0px;
 }
-nav ul li {
+.header nav ul li {
 	display: inline-block;
 }
-nav ul li a {	
+.header nav ul li a {	
 	padding: 20px ;
 	display: block;
 	color: #fff;
@@ -38,10 +38,10 @@ nav ul li a {
 	font-size: 14px;
 	letter-spacing: 0.5mm;
 }
-nav ul li a:hover {
+.header nav ul li a:hover {
 	color: #ffcc00;
 }
-nav h1 {
+.header nav h1 {
 	font-family: 'Great Vibes', cursive;	
 	font-size: 26px;
 	font-weight: 400;
@@ -51,24 +51,24 @@ nav h1 {
 	float: left;
 	margin: 0 auto;
 }
-.welcome {
+.header .welcome {
 	text-align: center;
 	color: #fff;
 }
-.welcome h1 {
+.header .welcome h1 {
 	margin-top: 150px;
 	text-transform: capitalize;
 	font-family: 'Alegreya', serif;
 	font-size: 40px;
 	font-weight: 400;
 }
-.welcome h2 {
+.header .welcome h2 {
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
 	letter-spacing: 1mm;
 }
-.welcome button {
+.header .welcome button {
 	background-color: #ffd633;
 	color: #fff;
 	border: none;
@@ -232,13 +232,11 @@ nav h1 {
 	text-transform: capitalize;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
-}
-    
+}    
 .about-us p {
     margin: 5px auto;
     font-family: 'Alegreya', serif;
 }
-
 .about-us .line1 {
 	border-left: 3px solid #f2f2f2;
     height: 30px;
@@ -305,7 +303,8 @@ nav h1 {
 .team .icon-social {
 	height: 45px;
 	width: 45px;
-	border: 3px solid #000000;
+	color: #1a1a1a;
+	border: 3px solid #1a1a1a;
 	cursor: pointer;
 	font-size: 25px;
 	border-radius: 50%;
@@ -339,4 +338,60 @@ nav h1 {
 .company .col-3 {
 	display: inline-block;
 	text-align: center;
+}
+/*CONTACT*/
+.contact {
+	padding-top: 8%;
+	background: url(images/footer-bg.jpg);
+	min-height: 680px; 
+}
+.contact h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+.contact .under {
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	margin-top: 0px;
+	color: #8c8c8c;
+}
+/*FOOTER*/
+footer p {
+	text-align: center;	
+	font-family: 'Open Sans', sans-serif;
+	color: #1a1a1a;
+}
+footer .icon-social {
+	height: 45px;
+	width: 45px;
+	color: #ffffff;
+	background-color: #1a1a1a;
+	border: 3px solid #1a1a1a;
+	cursor: pointer;
+	font-size: 25px;
+	border-radius: 50%;
+
+}
+footer .twitter:hover {
+	background-color: #4099FF;
+	border-color: #4099FF;	
+}
+footer .facebook:hover {
+	background-color: #3B5998;	
+	border-color: #3B5998;
+}
+footer .google-plus:hover {
+	background-color: #DB5A3C;
+	border-color: #DB5A3C;
+}
+footer .pinterest:hover {
+	background-color: #b30000;
+	border-color: #b30000;
+}
+footer .col-5 {
+	height: 65px;
 }
