@@ -202,7 +202,7 @@ nav h1 {
 }
 /*ABOUT US*/
 .about-us {
-	padding-top: 8%;
+	padding: 8% 0;
 }
 .about-us h1 {
 	text-align: center;
@@ -267,4 +267,68 @@ nav h1 {
     position: absolute;
     left: 50%;
     margin-top: 840px;
+}
+/*TEAM*/
+.team {
+	padding: 8% 10%;
+	background-color: #f2f2f2;
+}
+.team h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+.team img {
+	width: 300px;
+	height: 300px; 
+	float: left;
+	border-radius: 50%;
+	padding: 30px;
+	margin-top: 30px;	
+}
+.team h2 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+.team p {
+	text-align: center;
+    font-family: 'Alegreya', serif;
+    margin: 0;
+}
+.team .social {
+	margin: 0 auto;
+	text-align: center;	
+}
+.team .icon-social {
+	height: 45px;
+	width: 45px;
+	border: 3px solid #000000;
+	cursor: pointer;
+	font-size: 25px;
+	border-radius: 50%;
+}
+.team .twitter:hover {
+	color: #4099FF;
+	border-color: #4099FF;
+}
+.team .facebook:hover {
+	color: #3B5998;
+	border-color: #3B5998;
+}
+.team .google-plus:hover {
+	color: #DB5A3C;
+	border-color: #DB5A3C;
+}
+.team .pinterest:hover {
+	color: #b30000;
+	border-color: #b30000;
+}
+.team .text {
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	margin: 60px 130px 0 130px;
 }
