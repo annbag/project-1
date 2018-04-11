@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-.conatainer {
+.container {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -14,7 +14,7 @@
 }
 /*header*/
 header {
-	height: 100vh;
+	min-height: 700px;
 	background-image: url('images/header-bg.jpg');
 }
 nav ul {
@@ -49,6 +49,7 @@ nav h1 {
 	padding: 20px;
 	padding-left: 15%;
 	float: left;
+	margin: 0 auto;
 }
 .welcome {
 	text-align: center;
@@ -119,16 +120,16 @@ nav h1 {
 .col-offset-11 {margin-left: 91.66%;}
 
 .services {
-	margin: 80px 12% 80px 12%;
+	margin: 8% auto;
 }
 .services h1 {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 40px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
-.services p {
+.under {
 	text-align: center;
 	font-family: 'Alegreya', serif;
 	margin-top: 0px;
@@ -157,10 +158,11 @@ nav h1 {
 .services .icon-btn:hover + h2 {
 	color:  #ffd633;
 }
+/*PORTFOLIO*/
 .portfolio {
 	padding: 8% 10%;
 	background-color: #f2f2f2;
-	width: 100%;
+	
 }
 .portfolio h1 {
 	text-align: center;
@@ -168,11 +170,6 @@ nav h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 40px;
 	margin-bottom: 0px;
-}
-.portfolio p {
-	text-align: center;
-	font-family: 'Alegreya', serif;
-	margin-top: 0px;
 }
 .portfolio .image {
 	height: 300px;
@@ -191,6 +188,9 @@ nav h1 {
 	padding-top: 30px; 
 	
 }
+.portfolio p {
+	text-align: center;
+}
 .portfolio .col-4 {
 	padding: 30px 0px;
 }
@@ -199,4 +199,36 @@ nav h1 {
 	width: 290px;
 	margin: auto;
 	padding-bottom: 30px;
+}
+/*ABOUT US*/
+.about-us {
+	padding-top: 8%;
+}
+.about-us h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+.about-us .image {
+	text-align: center;
+
+}
+.about-us .left {
+	text-align: right;
+	padding-left: 15%;
+}
+.about-us .right {
+	padding-right: 15%;
+}
+.about-us h2 {
+    
+}
+.about-us h3 {
+
+}
+    
+.about-us p {
+    
 }
