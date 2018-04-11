@@ -213,7 +213,6 @@ nav h1 {
 }
 .about-us .image {
 	text-align: center;
-
 }
 .about-us .left {
 	text-align: right;
@@ -263,7 +262,7 @@ nav h1 {
 }
 .about-us .line4 {
 	border-left: 3px solid #f2f2f2;
-    height: 50px;
+    height: 30px;
     position: absolute;
     left: 50%;
     margin-top: 840px;
@@ -331,4 +330,13 @@ nav h1 {
 	text-align: center;
 	font-family: 'Alegreya', serif;
 	margin: 60px 130px 0 130px;
+}
+/*COMPANY*/
+.company {
+	padding: 5% 15%;
+	background-color: #ffffff;
+}
+.company .col-3 {
+	display: inline-block;
+	text-align: center;
 }
