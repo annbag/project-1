@@ -344,6 +344,7 @@ header {
 	padding-top: 8%;
 	background: url(images/footer-bg.jpg);
 	min-height: 680px; 
+	background-position: right;	
 }
 .contact h1 {
 	text-align: center;
@@ -359,13 +360,43 @@ header {
 	margin-top: 0px;
 	color: #8c8c8c;
 }
+.contact .form-group {
+	text-align: right;
+}
+.contact input, textarea {
+    margin: 10px auto;
+    padding: 15px;  
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    width: 400px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.contact button {
+	background-color: #ffd633;
+	color: #fff;
+	border: none;
+	padding: 15px 32px;
+	text-transform: uppercase;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;	
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 0.5mm;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
 /*FOOTER*/
-footer p {
+.footer p {
 	text-align: center;	
 	font-family: 'Open Sans', sans-serif;
 	color: #1a1a1a;
 }
-footer .icon-social {
+.footer .icon-social {
 	height: 45px;
 	width: 45px;
 	color: #ffffff;
@@ -376,22 +407,22 @@ footer .icon-social {
 	border-radius: 50%;
 
 }
-footer .twitter:hover {
+.footer .twitter:hover {
 	background-color: #4099FF;
 	border-color: #4099FF;	
 }
-footer .facebook:hover {
+.footer .facebook:hover {
 	background-color: #3B5998;	
 	border-color: #3B5998;
 }
-footer .google-plus:hover {
+.footer .google-plus:hover {
 	background-color: #DB5A3C;
 	border-color: #DB5A3C;
 }
-footer .pinterest:hover {
+.footer .pinterest:hover {
 	background-color: #b30000;
 	border-color: #b30000;
 }
-footer .col-5 {
+.footer .col-5 {
 	height: 65px;
 }

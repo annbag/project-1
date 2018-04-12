@@ -244,19 +244,28 @@
 			</div>
 		</div>		
 	</section>
-	<section class="contact">
+	<section class="contact container">
 		<h1>contact us</h1>
 		<p class="under"><i>Proin iaculis purus consequat sem cure.</i></p>
 		<div class="row">
-			<div class="col-6">				
-                
-			</div>
-			<div class="col-6">
-				
-			</div>
+			<form class="col-6">				
+                <div class="form-group">
+				    <input type="text" class="form-control" id="yourName" placeholder="Your name*">
+				</div>
+				<div class="form-group">				    
+					<input type="email" class="form-control" id="yourE-mail" placeholder="Your e-mail*">
+				</div>
+				<div class="form-group">				    
+					<input type="text" class="form-control" id="Subject" placeholder="Subject*">
+				</div>				
+			</form>
+			<form class="col-6">	
+				<textarea rows="8" placeholder="your message*" ></textarea>	
+			</form>
 		</div>
+		<button type="submit" class="btn btn-default">Send message</button>
 	</section>
-	<footer>
+	<footer class="footer container">
 		<div class="row"></div>
 			<div class="col-5">
 				<p>Copyright 2014 FreebiesXpress.com</p>
@@ -275,6 +284,7 @@
 					<i class="fa fa-google-plus"></i>
 				</button>
 			</div>
+		</div>
 	</footer>
 </body>
 </html>
