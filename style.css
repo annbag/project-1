@@ -374,12 +374,12 @@ header {
     font-size: 14px;
 }
 .contact button {
-	background-color: #ffd633;
-	color: #fff;
-	border: none;
-	padding: 15px 32px;
-	text-transform: uppercase;
-	text-align: center;
+    background-color: #ffd633;
+    color: #fff;
+    border: none;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    text-align: center;
     text-decoration: none;
     display: inline-block;	
     margin: 10px 2px;
@@ -389,6 +389,11 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 16px;
+}
+
+.contact .button_send{
+	display:flex;
+	justify-content:center;
 }
 /*FOOTER*/
 .footer p {
