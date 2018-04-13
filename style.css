@@ -373,6 +373,10 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+.contact .button-send {
+	display: flex;
+	justify-content: center;
+}
 .contact button {
 	background-color: #ffd633;
 	color: #fff;
