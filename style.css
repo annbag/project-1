@@ -14,7 +14,7 @@
 }
 /*header*/
 header {
-	min-height: 700px;
+	height: 100vh;
 	background-image: url('images/header-bg.jpg');
 }
 .header nav ul {
@@ -343,7 +343,7 @@ header {
 .contact {
 	padding-top: 8%;
 	background: url(images/footer-bg.jpg);
-	min-height: 680px; 
+	height: 100vh; 
 	background-position: right;	
 }
 .contact h1 {
@@ -409,7 +409,6 @@ header {
 	cursor: pointer;
 	font-size: 25px;
 	border-radius: 50%;
-
 }
 .footer .twitter:hover {
 	background-color: #4099FF;
@@ -429,4 +428,186 @@ header {
 }
 .footer .col-5 {
 	height: 65px;
+}
+
+@media (max-width: 767px){   
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+body {
+	margin: 0;
+}
+/*header*/
+	header {
+		background-position: center;
+	}
+	.header nav ul {
+		padding: 10px;		
+		float: none;			
+	}
+	.header nav ul li {
+		display: block;
+	}
+	.header nav ul li a {	
+		padding: 10px ;			
+	}	
+	.header nav h1 {		
+		padding: 10px;				
+		text-align: center;
+		float: none;	
+	}	
+	.header .welcome h1 {
+		margin-top: 25px;		
+		font-size: 30px;		;
+	}
+	.header .welcome h2 {
+		margin: 25px 0px;		
+		font-size: 40px;		
+	}
+	.header .welcome button {					
+	    margin: 10px 2px;	        
+	}
+	/*services*/
+	.services {
+		margin: 5% auto;
+	}	
+	.services h1 {
+		font-size: 30px;
+	}		
+	.services .icon-btn {
+		height: 80px;
+		width: 80px;					
+		padding-top: 0px;		
+	}
+	/*portfolio*/
+	.portfolio {
+		padding: 5% 10%;
+	}
+	.portfolio h1 {
+		font-size: 30px;
+	}
+	/*about-us*/
+	.about-us {
+	padding: 5% 0;
+	}
+	.about-us h1 {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 30px;
+		margin-bottom: 0px;
+	}
+	/*
+	.about-us .image {
+		text-align: center;		
+	}
+	.about-us img{
+		height: 100px;
+		width: 100px;
+	}
+	.about-us .left {
+		text-align: right;
+		padding: 10px;
+	}
+	.about-us .right {
+		padding: 10px;
+	}
+	.about-us h2 {
+	    font-size: 16px;
+	}
+	.about-us h3 {		
+		font-size: 16px;
+	}    
+	.about-us p {
+	    font-size: 14px;
+	}
+	.about-us .line1 {
+		border-left: 3px solid #f2f2f2;
+	    height: 30px;
+	    position: absolute;
+	    left: 50%;
+	    margin-top: 220px;
+	}
+	.about-us .line2 {
+		border-left: 3px solid #f2f2f2;
+	    height: 30px;
+	    position: absolute;
+	    left: 50%;
+	    margin-top: 430px;
+	}
+	.about-us .line3 {
+		border-left: 3px solid #f2f2f2;
+	    height: 30px;
+	    position: absolute;
+	    left: 50%;
+	    margin-top: 630px;
+	}
+	.about-us .line4 {
+		border-left: 3px solid #f2f2f2;
+	    height: 30px;
+	    position: absolute;
+	    left: 50%;
+	    margin-top: 840px;
+	}
+*/
+	/*TEAM*/
+	.team {
+		padding: 5%;
+		background-color: #f2f2f2;
+	}
+	.team h1 {		
+		font-size: 30px;		
+	}	
+	.team .text {		
+		margin: 20px 0;
+	}
+	.contact {
+		padding-top: 5%;			
+	}
+	.contact h1 {
+		font-size: 30px;		
+	}
+	.contact input, textarea {
+	    width: 100%;		        
+	}
+	.contact .button-send {
+		display: flex;
+		justify-content: center;
+	}
+	.contact button {		
+		margin-top: -5px;
+	    cursor: none;
+	}
+	.footer .icon-social {	
+		cursor: none;	
+		margin: 5%;
+	}
+}
+@media (min-width: 768px) {
+    /* For desktop: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+
+	
 }
