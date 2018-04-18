@@ -13,9 +13,9 @@
 	clear: both;
 }
 /*header*/
-header {
-	height: 100vh;
+header {	
 	background-image: url('images/header-bg.jpg');
+	padding-bottom: 5%;
 }
 .header nav ul {
 	padding: 10px;
@@ -345,8 +345,8 @@ header {
 /*CONTACT*/
 .contact {
 	padding-top: 8%;
-	background: url(images/footer-bg.jpg);
-	height: 100vh; 
+	padding-bottom: 8%;
+	background: url(images/footer-bg.jpg);	 
 	background-position: right;	
 }
 .contact h1 {
@@ -456,32 +456,36 @@ body {
 /*header*/
 	header {
 		background-position: center;
+		padding-bottom: auto;
 	}
 	.header nav ul {
-		padding: 10px;		
+		padding: 0px;		
 		float: none;			
 	}
 	.header nav ul li {
 		display: block;
 	}
 	.header nav ul li a {	
-		padding: 10px ;			
+		padding: 5px ;
+		font-size: 12px;			
 	}	
 	.header nav h1 {		
-		padding: 10px;				
+		padding: 8px;				
 		text-align: center;
-		float: none;	
+		float: none;
 	}	
 	.header .welcome h1 {
-		margin-top: 25px;		
-		font-size: 30px;		;
+		margin: 5px 0px;				
+		font-size: 22px;				
 	}
 	.header .welcome h2 {
-		margin: 25px 0px;		
-		font-size: 40px;		
+		margin: 5px 0px;		
+		font-size: 28px;		
 	}
 	.header .welcome button {					
-	    margin: 10px 2px;	        
+	    margin: 5px 2px;
+	    padding: 8px 20px; 
+	    font-size: 14px;      
 	}
 	/*services*/
 	.services {
@@ -573,13 +577,22 @@ body {
 	}
 	.team h1 {		
 		font-size: 30px;		
-	}	
+	}		
 	.team .text {		
 		margin: 20px 0;
 	}
-	.contact {
-		padding-top: 5%;			
+	.team img {
+		margin: 0 auto;
+    	text-align: center
+	    
+	    
+	    padding: 30px;
+	    margin-top: 30px;
 	}
+	.contact {
+		padding-top: 5%;	
+		padding-bottom: 5%;		
+	}	
 	.contact h1 {
 		font-size: 30px;		
 	}
@@ -593,6 +606,8 @@ body {
 	.contact button {		
 		margin-top: -5px;
 	    cursor: none;
+	    padding: 8px 20px; 
+	    font-size: 14px; 
 	}
 	.footer .icon-social {	
 		cursor: none;	
