@@ -1,6 +1,9 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	margin: 0;
+}
 .container {
 	width: 100%;
 	max-width: 1200px;
@@ -223,6 +226,7 @@ header {
 }
 .about-us .right {
 	padding-right: 15%;
+	float: right;
 }
 .about-us h2 {
     text-transform: uppercase;
@@ -287,6 +291,7 @@ header {
 	border-radius: 50%;
 	padding: 30px;
 	margin-top: 30px;	
+	object-fit: cover;
 }
 .team h2 {
 	text-align: center;
@@ -435,6 +440,43 @@ header {
 .footer .col-5 {
 	height: 65px;
 }
+.mobile-menu {
+	display: none;
+	color: #fff;
+}
+#mobile-menu-label {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+@media (max-width: 992px) {
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+
+	.col-m-offset-0 {margin-left: 0;}
+	.col-m-offset-1 {margin-left: 8.33%;}
+	.col-m-offset-2 {margin-left: 16.66%;}
+	.col-m-offset-3 {margin-left: 25%;}
+	.col-m-offset-4 {margin-left: 33.33%;}
+	.col-m-offset-5 {margin-left: 41.66%;}
+	.col-m-offset-6 {margin-left: 50%;}
+	.col-m-offset-7 {margin-left: 58.33%;}
+	.col-m-offset-8 {margin-left: 66.66%;}
+	.col-m-offset-9 {margin-left: 75%;}
+	.col-m-offset-10 {margin-left: 83.33%;}
+	.col-m-offset-11 {margin-left: 91.66%;}
+}
 
 @media (max-width: 767px){   
     .col-s-1 {width: 8.33%;}
@@ -450,9 +492,22 @@ header {
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 
-body {
-	margin: 0;
-}
+    .col-s-offset-0 {margin-left: 0;}
+	.col-s-offset-1 {margin-left: 8.33%;}
+	.col-s-offset-2 {margin-left: 16.66%;}
+	.col-s-offset-3 {margin-left: 25%;}
+	.col-s-offset-4 {margin-left: 33.33%;}
+	.col-s-offset-5 {margin-left: 41.66%;}
+	.col-s-offset-6 {margin-left: 50%;}
+	.col-s-offset-7 {margin-left: 58.33%;}
+	.col-s-offset-8 {margin-left: 66.66%;}
+	.col-s-offset-9 {margin-left: 75%;}
+	.col-s-offset-10 {margin-left: 83.33%;}
+	.col-s-offset-11 {margin-left: 91.66%;}
+
+	body {
+		margin: 0;
+	}
 /*header*/
 	header {
 		background-position: center;
@@ -508,7 +563,7 @@ body {
 	}
 	/*about-us*/
 	.about-us {
-	padding: 5% 0;
+		padding: 5% 0;		
 	}
 	.about-us h1 {
 		text-align: center;
@@ -517,6 +572,13 @@ body {
 		font-size: 30px;
 		margin-bottom: 0px;
 	}
+	.about-us .left,
+	.about-us .right {
+		text-align: center;
+		padding: 0 15px;
+	}
+
+
 	/*
 	.about-us .image {
 		text-align: center;		
@@ -574,6 +636,7 @@ body {
 	.team {
 		padding: 5%;
 		background-color: #f2f2f2;
+		text-align: center;
 	}
 	.team h1 {		
 		font-size: 30px;		
@@ -583,11 +646,10 @@ body {
 	}
 	.team img {
 		margin: 0 auto;
-    	text-align: center
-	    
-	    
+    	text-align: center;	    	    
 	    padding: 30px;
 	    margin-top: 30px;
+	    float: none;	    
 	}
 	.contact {
 		padding-top: 5%;	
@@ -613,22 +675,13 @@ body {
 		cursor: none;	
 		margin: 5%;
 	}
-}
-@media (min-width: 768px) {
-    /* For desktop: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-
-
-	
+	.mobile-menu:not(#mobile-menu-btn) {
+		display: block;
+	}
+	.header ul {
+		display: none;
+	}
+	#mobile-menu-btn:checked + ul {
+		display: block;
+	}
 }
