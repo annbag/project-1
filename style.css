@@ -244,28 +244,28 @@ header {
     margin: 5px auto;
     font-family: 'Alegreya', serif;
 }
-.about-us .line1 {
+.about-us .line-1 {
 	border-left: 3px solid #f2f2f2;
     height: 30px;
     position: absolute;
     left: 50%;
     margin-top: 220px;
 }
-.about-us .line2 {
+.about-us .line-2 {
 	border-left: 3px solid #f2f2f2;
     height: 30px;
     position: absolute;
     left: 50%;
     margin-top: 430px;
 }
-.about-us .line3 {
+.about-us .line-3 {
 	border-left: 3px solid #f2f2f2;
     height: 30px;
     position: absolute;
     left: 50%;
     margin-top: 630px;
 }
-.about-us .line4 {
+.about-us .line-4 {
 	border-left: 3px solid #f2f2f2;
     height: 30px;
     position: absolute;
@@ -576,62 +576,10 @@ header {
 	.about-us .right {
 		text-align: center;
 		padding: 0 15px;
+	}	
+	.about-us .line {
+		display: none;
 	}
-
-
-	/*
-	.about-us .image {
-		text-align: center;		
-	}
-	.about-us img{
-		height: 100px;
-		width: 100px;
-	}
-	.about-us .left {
-		text-align: right;
-		padding: 10px;
-	}
-	.about-us .right {
-		padding: 10px;
-	}
-	.about-us h2 {
-	    font-size: 16px;
-	}
-	.about-us h3 {		
-		font-size: 16px;
-	}    
-	.about-us p {
-	    font-size: 14px;
-	}
-	.about-us .line1 {
-		border-left: 3px solid #f2f2f2;
-	    height: 30px;
-	    position: absolute;
-	    left: 50%;
-	    margin-top: 220px;
-	}
-	.about-us .line2 {
-		border-left: 3px solid #f2f2f2;
-	    height: 30px;
-	    position: absolute;
-	    left: 50%;
-	    margin-top: 430px;
-	}
-	.about-us .line3 {
-		border-left: 3px solid #f2f2f2;
-	    height: 30px;
-	    position: absolute;
-	    left: 50%;
-	    margin-top: 630px;
-	}
-	.about-us .line4 {
-		border-left: 3px solid #f2f2f2;
-	    height: 30px;
-	    position: absolute;
-	    left: 50%;
-	    margin-top: 840px;
-	}
-*/
 	/*TEAM*/
 	.team {
 		padding: 5%;
@@ -670,10 +618,9 @@ header {
 	    cursor: none;
 	    padding: 8px 20px; 
 	    font-size: 14px; 
-	}
+	}	
 	.footer .icon-social {	
 		cursor: none;	
-		margin: 5%;
 	}
 	.mobile-menu:not(#mobile-menu-btn) {
 		display: block;
