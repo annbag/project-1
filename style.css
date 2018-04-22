@@ -622,6 +622,9 @@ header {
 	.footer .icon-social {	
 		cursor: none;	
 	}
+	.social-media {
+		text-align: center;
+	}
 	.mobile-menu:not(#mobile-menu-btn) {
 		display: block;
 	}
